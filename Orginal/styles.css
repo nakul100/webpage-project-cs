@@ -1,0 +1,55 @@
+html, body {
+  width: 100%;
+  overflow-x: hidden; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 0; }
+
+a {
+  color: #ff00cc;
+  transition: all .3s ease-in-out; }
+
+a:focus,
+button:focus {
+  outline: none; }
+
+.btn:hover,
+a:hover {
+  text-decoration: none;
+  color: #333399; }
+
+img {
+  max-width: 100%; }
+
+.bg-fixed {
+  background-size: cover; }
+
+.bg-grey {
+  background-color: #f7f8f9; }
+
+.fs-40 {
+  font-size: 40px; }
+
+ #header-navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 11;
+  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
